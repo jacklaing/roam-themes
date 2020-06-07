@@ -1100,8 +1100,8 @@ span.cm-meta { color: #369BFF !important; }
 .CodeMirror-matchingbracket { outline:1px solid var(--reference); color:#fff !important; }
 .CodeMirror-activeline-background { background: var(--primary); }
 
-.CodeMirror pre {background: var(--highlighted-background);}
+.CodeMirror pre {background: var(--main-background);}
 
 
-.CodeMirror-lines {background: var(--highlighted-background);}
+.CodeMirror-lines {background: var(--secondary-background);}
 .CodeMirror-activeline pre {background: var(--highlighted-background); /* SPM ADDED */}
