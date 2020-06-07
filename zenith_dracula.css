@@ -783,7 +783,7 @@ textarea {
     color: var(--primary) !important;
 }
 #roam-right-sidebar-content > div .bp3-icon-minus ~ button.bp3-button {
-    color: var(--primary);
+    color: var(--primary) !important;
 }
 .roam-topbar .bp3-icon-star::before {
     color: var(--primary) !important;
