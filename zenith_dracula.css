@@ -1026,6 +1026,19 @@ button[style*="background-color: rgba(72, 176, 240, 0.5);"]{
   }
 
 
+/* --------- EQUATION BLOCKS ---------- */
+
+.rm-block-text svg :not(.katex) {
+    background-color: var(--main-background) !important;
+    border: none !important;
+}
+
+.roam-center > div > div > div svg :not(.katex) {
+    background-color: var(--main-background) !important;
+}
+
+
+/* --------- CODE ---------- */
 
 
 /*RR change: Codemirror adjustments*/
@@ -1039,7 +1052,6 @@ code {
     padding: 3px 4px 3px 4px;
     font-family: var(--code-font);
 }
-
 
 /*
     Name:       Railscasts
