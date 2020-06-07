@@ -596,7 +596,7 @@ div.rm-block-ref {
   color: var(--primary);
 }
 .rm-pages-row-highlight {
-  background-color: var(--secondary-background); /*RR change: dark alternating row color*/
+  background-color: var(--main-background); /*RR change: dark alternating row color*/
 }
 .rm-pages-row:first-child { /*RR change: Table Header*/
   background-color: var(--highlighted-background) !important;
