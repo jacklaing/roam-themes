@@ -240,11 +240,11 @@
 
 .rm-pages-row-header {
   background-color: rgba(var(--primary), 0.4) !important;
-  color: var(--external-link) !important;
+  color: var(--font) !important;
   border: none !important;
 }
 .rm-pages-row[style] .bp3-icon::before {
-  color: var(--external-link) !important;
+  color: var(--primary) !important;
 }
 .rm-pages-row-highlight {
   background-color: var(--secondary-background);
@@ -254,7 +254,7 @@
 }
 /* use wrench icon for actions header rather than "AC..." */
 .rm-pages-row[style] .rm-pages-action-col::before {
-  color: var(--external-link);
+  color: var(--primary);
 }
 
 /* style new page button */
