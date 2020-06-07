@@ -440,15 +440,15 @@ canvas[data-id="layer2-node"] {
 
 @keyframes orb_1 {
     from {
-        background: rgb(var(--primary-light));
+        background: var(--primary-light);
     }
     to {
-        background: rgb(var(--primary));
+        background: var(--primary);
     }
 }
 
 .bp3-spinner-head {
-    stroke: rgb(var(--primary)) !important;
+    stroke: var(--primary) !important;
 }
 
 
@@ -763,6 +763,30 @@ textarea {
   /* background-color: rgba(167,182,194,0.3); */
   background-color: var(--highlighted-background);
   color: var(--primary-light);
+}
+
+.bp3-button.bp3-minimal:hover {
+    background: rgba(var(--primary), 0.4) !important;
+    color: var(--primary) !important;
+}
+.bp3-button.bp3-minimal::before, .bp3-button.bp3-minimal *, .bp3-button.bp3-minimal *::before {
+    color: var(--primary) !important;
+}
+.bp3-button.bp3-minimal:hover::before, .bp3-button.bp3-minimal:hover *, .bp3-button.bp3-minimal:hover *::before {
+    color: var(--primary) !important;
+}
+*[class*="bp3-icon"], *[class*="bp3-icon"]::before {
+    color: var(--primary) !important;
+}
+.version-bullet {
+    background-color: var(--highlighted-background) !important;
+    color: var(--primary) !important;
+}
+#roam-right-sidebar-content > div .bp3-icon-minus ~ button.bp3-button {
+    color: var(--primary);
+}
+.roam-topbar .bp3-icon-star::before {
+    color: var(--primary) !important;
 }
 
 
