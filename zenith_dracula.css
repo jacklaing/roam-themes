@@ -53,8 +53,6 @@
   --datepicker-bg: transparent;
   
   /* fragile styles that may break with the next update */
-  --block-embed-bg: #073642;
-  --block-embed-font-size: 0.85em;
   --alias-font-color: #268bd2;
   --alias-bg: transparent;
   /*RR change: no longer needed? Already broken?*/
@@ -724,6 +722,10 @@ div.rm-block-text {
   font-size: var(--ref-count-font-size); /*RR change: added variable*/
 }
 
+.rm-embed-container{
+    background-color: var(--secondary-background) !important;
+}
+
 
 textarea {
   font-family: var(--main-font);
@@ -918,13 +920,6 @@ select {
 }
 
 /*RR change: This section contains a series of very specific overrides that are extremely fragile and will probably break with any minor update*/
-
-/*RR change: Super fragile override for Block embeds to change the background color and font-size*/
-
-div[style^='overflow: hidden; margin-left: -8px; background-color: rgb(235, 241, 245); margin-top: -4px;']{
-  background-color: var(--block-embed-bg) !important;
-  font-size: var(--block-embed-font-size);
-}
 
 /*RR change: Very fragile override for alias styes, will probably break*/
 span[style^='background-color: rgb(235, 241, 245); border-radius: 4px; cursor: alias; color: rgb(245, 86, 86); padding: 4px 6px;'] {
