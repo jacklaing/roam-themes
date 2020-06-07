@@ -12,8 +12,8 @@
     --code-font: 'Source Code Pro', 'Courier New', Courier, monospace;
     	
     --main-background: #1B1A23;	
-    --secondary-background: #22212C; /* Page Color, Sidebars, Search Backgrounds */
-    --highlighted-background: #353243; /* Bullet Outlines, Hover Backgrounds, Block Ref / Query Backgrounds */
+    --secondary-background: #22212C; /* Page Color, Sidebars */
+    --highlighted-background: #353243; /* Bullet Outlines, Search Backgrounds, Hover Backgrounds, Block Ref / Query Backgrounds */
     	
     --font: #F8F8F3; 
     --font-dark: #D5D4DE; /* Sidebar, Search, Breadcrumbs */
