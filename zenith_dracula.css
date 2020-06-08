@@ -754,6 +754,7 @@ textarea {
 
 .bp3-button:not([class*="bp3-intent-"]) {
   color: var(--primary);
+  background-color: transparent;
 }
 .bp3-button:not([class*="bp3-intent-"]):hover {
   /* background-color: rgba(167,182,194,0.3); */
