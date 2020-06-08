@@ -18,3 +18,23 @@ span[data-link-title*="Aragon"] .rm-page-ref-link-color:before {
     filter: hue-rotate(11deg) contrast(200%) grayscale(20%);
     display: inline-block;
 }
+span.rm-page-ref[data-tag="Facebook"]:before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-image: url(https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512);
+    filter: hue-rotate(11deg) contrast(200%) grayscale(20%);
+    display: inline-block;
+}
+span[data-link-title*="Facebook"] .rm-page-ref-link-color:before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-image: url(https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512);
+    filter: hue-rotate(11deg) contrast(200%) grayscale(20%);
+    display: inline-block;
+}
