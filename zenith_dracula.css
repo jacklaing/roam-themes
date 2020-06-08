@@ -606,7 +606,7 @@ div.rm-block-ref {
   color: var(--primary-light) !important;
 }
 a.rm-pages-title-text {
-  color: var(--primary-light);
+  color: var(--primary-light) !important;
 }
 
 .rm-reference-item {
