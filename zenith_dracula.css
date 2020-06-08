@@ -605,7 +605,7 @@ div.rm-block-ref {
 .rm-pages-row .rm-pages-title-col a strong { /*RR change: Page Title*/
   color: var(--primary-light) !important;
 }
-.rm-pages-title-text {
+a.rm-pages-title-text {
   color: var(--primary-light);
 }
 
