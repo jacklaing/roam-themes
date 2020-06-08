@@ -123,7 +123,7 @@ h1.rm-title-display, .rm-title-textarea {
 #roam-right-sidebar-content {
     visibility: visible;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: flex-start; /* allow pages to have their own height */
     justify-content: flex-end;
 }
