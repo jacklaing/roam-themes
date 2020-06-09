@@ -627,6 +627,10 @@ canvas[data-id="layer2-node"] {
 
 /* CHECKBOX */
 
+.checkmark {
+    top: -1px;
+    left: -2px;
+}
 .check-container .checkmark {
     width: 14px;
     height: 14px;
@@ -634,6 +638,9 @@ canvas[data-id="layer2-node"] {
 .check-container .checkmark::after {
     left: 4.5px;
     top: 1px;
+}
+.rm-block-ref > * .checkmark {
+    top: -2px
 }
 
 
