@@ -1,3 +1,7 @@
+.rm-alias-external:before {
+    content: "🔗"
+}
+
 span.rm-page-ref[data-tag="Source"]:before,
 span[data-link-title^="Source"] .rm-page-ref:before {
   content: "📚";
