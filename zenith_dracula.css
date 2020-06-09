@@ -849,7 +849,7 @@ textarea {
   text-decoration: underline;
 }
 hr {
-  border-top: 1px solid var(--font);
+  border-top: 1px solid var(--font-dark);
 }
 
 /*RR change: Sidebar modifications*/
