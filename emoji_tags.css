@@ -1,6 +1,6 @@
 span.rm-page-ref[data-tag="Source"]:before {
     content: "📚";
 }
-span[data-link-title*="Source"] .rm-page-ref-link-color:before {
+span[data-link-title^="Source"] .rm-page-ref-link-color:before {
   content: "📚";
 }
