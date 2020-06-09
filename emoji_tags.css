@@ -1,5 +1,4 @@
 span.rm-page-ref[data-tag="Source"]:before,
-span[data-link-title*="Source"] .rm-page-ref-link-color:before,
-span[data-link-title*="Source"] .rm-page-ref-namespace-color:before {
+span[data-link-title*="Source"] .rm-page-ref:before {
   content: "📚";
 }
