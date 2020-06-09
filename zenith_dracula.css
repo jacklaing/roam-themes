@@ -562,7 +562,7 @@ span.rm-page-ref.rm-page-ref-tag:hover {
   color: var(--primary-light); /*RR change: theme color*/
 }
 .rm-page-ref-namespace-color {
-  color: var(--primary);
+  color: var(--primary-light);
 }
 .rm-block-ref {
   border-bottom: 1px solid var(--reference);
