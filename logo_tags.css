@@ -1,5 +1,5 @@
-span.rm-page-ref[data-tag="Aragon"]:after,
-span[data-link-title^="Aragon"] .rm-page-ref:after {
+span.rm-page-ref[data-tag="Aragon"]:before,
+span[data-link-title^="Aragon"] .rm-page-ref:before !important {
     content: "";
     width: 12px;
     height: 12px;
