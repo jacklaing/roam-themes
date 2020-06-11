@@ -1,4 +1,4 @@
-span.rm-page-ref[data-tag="Aragon"]:before {
+span.rm-page-ref[data-tag="Aragon"]:after {
     content: "";
     width: 12px;
     height: 12px;
@@ -8,7 +8,7 @@ span.rm-page-ref[data-tag="Aragon"]:before {
     filter: hue-rotate(11deg) contrast(200%) grayscale(20%);
     display: inline-block;
 }
-span[data-link-title*="Aragon"] .rm-page-ref-link-color:before {
+span[data-link-title*="Aragon"] .rm-page-ref-link-color:after {
     content: "";
     width: 12px;
     height: 12px;
@@ -18,7 +18,7 @@ span[data-link-title*="Aragon"] .rm-page-ref-link-color:before {
     filter: hue-rotate(11deg) contrast(200%) grayscale(20%);
     display: inline-block;
 }
-span.rm-page-ref[data-tag="Facebook"]:before {
+span.rm-page-ref[data-tag="Facebook"]:after {
     content: "";
     width: 12px;
     height: 12px;
@@ -28,7 +28,7 @@ span.rm-page-ref[data-tag="Facebook"]:before {
     filter: hue-rotate(11deg) contrast(200%) grayscale(20%);
     display: inline-block;
 }
-span[data-link-title*="Facebook"] .rm-page-ref-link-color:before {
+span[data-link-title*="Facebook"] .rm-page-ref-link-color:after {
     content: "";
     width: 12px;
     height: 12px;
@@ -38,7 +38,7 @@ span[data-link-title*="Facebook"] .rm-page-ref-link-color:before {
     filter: hue-rotate(11deg) contrast(200%) grayscale(20%);
     display: inline-block;
 }
-span.rm-page-ref[data-tag="Google"]:before {
+span.rm-page-ref[data-tag="Google"]:after {
     content: "";
     width: 12px;
     height: 12px;
@@ -48,7 +48,7 @@ span.rm-page-ref[data-tag="Google"]:before {
     filter: hue-rotate(11deg) contrast(200%) grayscale(20%);
     display: inline-block;
 }
-span[data-link-title*="Google"] .rm-page-ref-link-color:before {
+span[data-link-title*="Google"] .rm-page-ref-link-color:after {
     content: "";
     width: 12px;
     height: 12px;
