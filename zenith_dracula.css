@@ -56,11 +56,11 @@
   --filter-bg-add: rgba(141, 187, 64, 0.5); */
   
   /* Misc */
-  --kanban-board-bg: #333333;
-  --kanban-column-bg: #454545;
-  --kanban-card-bg: #555555;
-  --kanban-column-font-color: #e98924;
-  --kanban-card-font-color: #6d9cbe;
+  --kanban-board-bg: var(--secondary-background);
+  --kanban-column-bg: var(--main-background);
+  --kanban-card-bg: var(--highlighted-background);
+  --kanban-column-font-color: var(--main-font);
+  --kanban-card-font-color: var(--main-font);
   
   --table-border: #444;
   
